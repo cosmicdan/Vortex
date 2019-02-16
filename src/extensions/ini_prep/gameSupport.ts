@@ -70,6 +70,13 @@ const gameSupport = {
     ],
     iniFormat: 'winapi',
   },
+  enderal: {
+    iniFiles: [
+      path.join('{mygames}', 'Enderal', 'Enderal.ini'),
+      path.join('{mygames}', 'Enderal', 'EnderalPrefs.ini'),
+    ],
+    iniFormat: 'winapi',
+  },
 };
 
 export function iniFiles(gameMode: string, discovery: IDiscoveryResult) {

@@ -19,6 +19,7 @@ export function nexusGameId(game: IGameStored): string {
     falloutnv: 'newvegas',
     fallout4vr: 'fallout4',
     teso: 'elderscrollsonline',
+    enderal: 'skyrim',
   }[game.id.toLowerCase()] || game.id;
 }
 
